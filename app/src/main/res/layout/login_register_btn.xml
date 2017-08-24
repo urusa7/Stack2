@@ -15,7 +15,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/login"
+                android:text="Login"
+                android:id="@+id/login_here"
                 android:background="@color/purple_red"
                 android:textColor="@android:color/white"
                 style="@style/com_facebook_button_like" />
@@ -30,8 +31,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/register"
+                android:text="Register"
                 android:background="@color/skyDark"
+                android:id="@+id/register_here"
                 android:textColor="@android:color/white"
                 style="@style/com_facebook_button_like"/>
         </LinearLayout>
