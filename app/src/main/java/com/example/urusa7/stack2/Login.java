@@ -35,15 +35,14 @@ EditText mEmail, mPassword;
         mUser = FirebaseAuth.getInstance().getCurrentUser();
         mAuthListner = new FirebaseAuth.AuthStateListener() {
             @Override
-            public  void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (mUser != null) {
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                if (mUser!=null) {
                     Intent intent = new Intent(Login.this, Home.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                 } else {
                     Log.d(TAG, "AuthStateChange:LogOut");
                 }
-            }
             }
         };
 
