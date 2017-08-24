@@ -94,6 +94,7 @@ EditText mEmail, mPassword;
         }
     }
 
+    //test
     private void userSign() {
         Email = mEmail.getText().toString().trim();
         Password = mPassword.getText().toString().trim();
