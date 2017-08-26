@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 public class Register extends AppCompatActivity {
 
-    //real
+    //real2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
