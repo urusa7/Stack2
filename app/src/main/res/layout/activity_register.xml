@@ -32,7 +32,7 @@
         android:textSize="30sp"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/register_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo_Register"
@@ -46,58 +46,58 @@
         android:background="@drawable/background_email"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/register_email"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/register_name"
         android:layout_marginTop="27dp"
         android:ems="10"
         android:background="@drawable/background_email"
         android:hint="@string/email"
         android:padding="10dp"
         android:inputType="textEmailAddress"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_alignRight="@+id/editText"
-        android:layout_alignEnd="@+id/editText" />
+        android:layout_alignLeft="@+id/register_name"
+        android:layout_alignStart="@+id/register_name"
+        android:layout_alignRight="@+id/register_name"
+        android:layout_alignEnd="@+id/register_name" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/register_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/register_email"
         android:layout_marginTop="27dp"
         android:ems="10"
         android:padding="10dp"
         android:background="@drawable/background_email"
         android:hint="@string/password_hint"
         android:inputType="textPassword"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2" />
+        android:layout_alignLeft="@+id/register_email"
+        android:layout_alignStart="@+id/register_email"
+        android:layout_alignRight="@+id/register_email"
+        android:layout_alignEnd="@+id/register_email" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
-        android:layout_below="@+id/editText3"
-        android:layout_alignLeft="@+id/editText3"
-        android:layout_alignStart="@+id/editText3"
-        android:layout_alignRight="@+id/editText3"
-        android:layout_alignEnd="@+id/editText3"
+        android:layout_below="@+id/register_password"
+        android:layout_alignLeft="@+id/register_password"
+        android:layout_alignStart="@+id/register_password"
+        android:layout_alignRight="@+id/register_password"
+        android:layout_alignEnd="@+id/register_password"
         android:text="@string/register"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         style="@style/com_facebook_loginview_silver_style"
         android:background="@color/bb"
-        android:id="@+id/button2" />
+        android:id="@+id/register_btn" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/loginBackbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/register_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
         android:text="@string/already_register"
